@@ -21,16 +21,23 @@
 
 ## 🌟 Introduction
 
-The Mental Health Awareness project is a welcoming, single-page web platform designed to provide accessible, beginner-friendly mental health information. The site helps users recognize common mental health issues and discover practical stress management techniques through a supportive, well-organized layout.
+**Purpose:**  
+To educate, support, and guide users with beginner-friendly mental health information in a calm, accessible way.
 
-Built with HTML, CSS, and Bootstrap, the project emphasizes a clean, calming design with carefully chosen colors and thoughtful organization. The site features Bootstrap components including information cards, resource grids, and positive messaging sections to create an encouraging user experience that feels supportive rather than overwhelming.
+**Audience:**  
+People new to mental health topics or feeling stressed, looking for gentle guidance and clarity.
 
-**Key objectives of this project:**
+The Mental Health Awareness project is a welcoming, single-page web platform designed to help users recognize common mental health issues and discover practical stress management techniques. The site uses Bootstrap to create a clean, calming layout with carefully chosen colors and thoughtful organization.
+
+**Key goals of this project:**
+- Use Bootstrap for a clean, welcoming layout
+- Present tips and issues using cards for easy reading
+- Highlight helpful links with styled buttons
+- Share positive affirmations to encourage users
 - Provide accessible mental health information for all knowledge levels
-- Create a non-intimidating, supportive environment for learning
-- Demonstrate effective Bootstrap implementation for clean, organized design
-- Present stress management tools and resources in a visually appealing format
-- Foster mental health awareness through positive, encouraging content
+- Foster a non-intimidating, supportive environment for learning
+
+Bootstrap components such as information cards, resource grids, and positive messaging sections ensure the user experience is supportive and easy to navigate, making mental health resources approachable for everyone.
 
 ---
 
@@ -40,10 +47,18 @@ The development process for this project followed a structured, user-centered ap
 
 ### Planning and User Stories
 ---
-User stories were developed with GitHub Copilot using the format "As a [user type], I want [goal] so that [benefit]." These focused on calming design, accessible information, and intuitive navigation. Acceptance criteria served as actionable checklists, ensuring features met user needs like clear headings and proper color contrast for accessibility.
+I began by using Copilot to help suggest purpose and audience from the project briefS. Then, I created user stories from that information, following the format: "As a [user type], I want [goal] so that [benefit]." These stories focused on calming design, accessible information, and intuitive navigation. Acceptance criteria were developed as actionable checklists to ensure features met user needs, such as clear headings and proper color contrast for accessibility.
 
 ![User Stories](assets/images-readme/user-stories.png)
 *Figure 1: User story development and acceptance criteria*
+
+#### Visual Design and Wireframing
+---
+Copilot then helped suggest a color theme that was appropriate and visual layouts were created using wireframes, following mobile-first design principles. The wireframes evolved throughout development to optimize the user experience.
+
+![Wireframes](assets/images-readme/wireframes.png)
+*Figure 3: Mobile and desktop wireframes showing responsive design approach*
+
 
 ### Project Management Setup
 ---
@@ -51,13 +66,6 @@ A GitHub repository was created and linked to a GitHub project for streamlined m
 
 ![GitHub Project Board](assets/images-readme/project-board.png)
 *Figure 2: GitHub Project Board showing user stories organized by priority*
-
-#### Visual Design and Wireframing
----
-Visual layouts were created using wireframes, following mobile-first design principles. The wireframes evolved throughout development to optimize the user experience.
-
-![Wireframes](assets/images-readme/wireframes.png)
-*Figure 3: Mobile and desktop wireframes showing responsive design approach*
 
 #### Technical Setup
 ---

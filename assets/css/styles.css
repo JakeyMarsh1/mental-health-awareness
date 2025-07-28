@@ -1,3 +1,10 @@
+/* Fixed size for carousel images */
+.carousel-img-fixed {
+  width: 500px !important;
+  height: 300px !important;
+  object-fit: cover;
+  margin: 0 auto;
+}
 /*google fonts import*/
 /* Importing Raleway and Roboto Mono fonts from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
@@ -7,6 +14,8 @@
 body {
   font-family: "Raleway", sans-serif;
   background-color: #fefaf2;
+  background-image: url("../images/background-image.png");
+  background-size: cover;
 }
 
 /*custom styles*/
@@ -15,6 +24,19 @@ nav.nav-custom {
   font-family: "Raleway", sans-serif;
   background-color: #fefaf2;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+footer.footer-custom {
+  font-family: "Raleway", sans-serif;
+  background-color: #fefaf2;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.08);
+  width:100%;
+}
+
+a.a-custom {
+  color: #9cccc4;
+  justify-content: center;
+  padding: 1rem;
 }
 
 /*media queries for responsive navbar alignment*/
