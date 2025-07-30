@@ -508,3 +508,9 @@ img, .img-fluid, .card-img-top {
 footer.footer-custom {
   overflow-x: hidden !important;
 }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .card-title:contains("Move With Kindness") + .card-text {
+    margin-bottom: -8px !important;
+  }
+}
