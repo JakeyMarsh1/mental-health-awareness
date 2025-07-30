@@ -490,3 +490,21 @@ button:hover,
 /* =========================
    END OF FILE
    ========================= */
+
+html, body {
+  overflow-x: hidden !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img, .img-fluid, .card-img-top {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+footer.footer-custom {
+  overflow-x: hidden !important;
+}
