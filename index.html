@@ -1,130 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Meta tags for SEO and responsiveness -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta
-      name="description"
-      content="ZenBloom - Mindfulness for Mental Wellness"
-    >
-    <meta
-      name="keywords"
-      content="mental health, mindfulness, wellness, support"
-    >
+    <meta name="description" content="ZenBloom - Mindfulness for Mental Wellness">
+    <meta name="keywords" content="mental health, mindfulness, wellness, support">
     <title>ZenBloom</title>
     <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      crossorigin="anonymous"
-    >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <!-- Favicon -->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon/fav-32x32.png"
-    >
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon/fav-16x16.png"
-    >
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/fav-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/fav-16x16.png">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
   </head>
   <body class="d-flex flex-column min-vh-100">
-    <!-- =========================
-         Navigation Bar
-    ========================= -->
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg nav-custom sticky-top">
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="assets/images/logo-64x64.png" alt="ZenBloom logo">
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarSupportedContent"
-        >
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#symptoms">Symptoms</a>
-            </li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#symptoms">Symptoms</a></li>
             <li class="nav-item"><a class="nav-link" href="#us">Us</a></li>
             <li class="nav-item"><a class="nav-link" href="#info">Info</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- =========================
-         Header Section
-    ========================= -->
+    <!-- Header Section -->
     <header id="hero" class="container">
       <section class="row">
         <div class="col-12 text-center">
           <h2 class="display-4 mt-4">ZenBloom</h2>
-          <p class="lead">
-            A safe space for cultivating Mindfulness for Mental Wellness
-          </p>
+          <p class="lead">A safe space for cultivating Mindfulness for Mental Wellness</p>
         </div>
       </section>
     </header>
-    <!-- =========================
-         Main Content
-    ========================= -->
+
+    <!-- Main Content -->
     <main class="container container-custom">
       <!-- Symptoms Section -->
-      <section id="symptoms" class="container pb-4">
+      <section id="symptoms" class="pb-4">
         <div class="row justify-content-evenly align-items-stretch mt-4">
           <div class="col-12 text-center my-4">
             <h2 class="display-5">Recognizing the Signs, Reclaiming Control</h2>
-            <p class="lead">
-              Learn how to spot symptoms and take mindful steps toward healing.
-            </p>
+            <p class="lead">Learn how to spot symptoms and take mindful steps toward healing.</p>
           </div>
           <!-- Anxiety Overload Card -->
           <div class="col-12 col-md-4">
             <article class="card mb-3 sharp-corners h-100">
-              <img
-                src="assets/images/anxiety.png"
-                class="card-img-top pt-symptom-img"
-                alt="Person experiencing anxiety"
-              >
-              <div class="card-body p-4 d-flex flex-column h-100 text-center">
+              <img src="assets/images/anxiety.png" class="card-img-top pt-symptom-img" alt="Person experiencing anxiety">
+              <div class="card-body p-4 d-flex flex-column h-100 text-center anxiety-card">
                 <h3 class="card-title">Anxiety Overload</h3>
-                <p class="card-text">
-                  <strong>Symptoms:</strong> Racing thoughts, tense muscles,
-                  restlessness, excessive worry about everyday situations.
-                </p>
+                <p class="card-text"><strong>Symptoms:</strong> Racing thoughts, tense muscles, restlessness, excessive worry about everyday situations.</p>
                 <strong>Support Strategies:</strong>
                 <ul class="text-start">
                   <li>Practice deep breathing or grounding exercises.</li>
                   <li>Limit caffeine and get regular sleep.</li>
                   <li>Seek therapy — CBT is particularly effective.</li>
-                  <li>
-                    Use mindfulness apps to track triggers and self-regulate.
-                  </li>
+                  <li>Use mindfulness apps to track triggers and self-regulate.</li>
                 </ul>
               </div>
             </article>
@@ -132,32 +75,16 @@
           <!-- Depressive Spiral Card -->
           <div class="col-12 col-md-4">
             <article class="card mb-3 sharp-corners h-100">
-              <img
-                src="assets/images/depression.png"
-                class="card-img-top"
-                alt="Person experiencing depression"
-              >
+              <img src="assets/images/depression.png" class="card-img-top" alt="Person experiencing depression">
               <div class="card-body p-4 d-flex flex-column h-100 text-center">
                 <h3 class="card-title">Depressive Spiral</h3>
-                <p class="card-text">
-                  <strong>Symptoms:</strong> Persistent sadness, loss of
-                  interest, fatigue, withdrawal from others, difficulty
-                  concentrating.
-                </p>
+                <p class="card-text"><strong>Symptoms:</strong> Persistent sadness, loss of interest, fatigue, withdrawal from others, difficulty concentrating.</p>
                 <strong>Support Strategies:</strong>
                 <ul class="text-start">
                   <li>Establish small, achievable daily routines.</li>
-                  <li>
-                    Connect with supportive friends or family — even a quick
-                    check-in helps.
-                  </li>
-                  <li>
-                    Consider professional support (therapy + medication
-                    options).
-                  </li>
-                  <li>
-                    Try light exposure therapy or gentle movement like yoga.
-                  </li>
+                  <li>Connect with supportive friends or family — even a quick check-in helps.</li>
+                  <li>Consider professional support (therapy + medication options).</li>
+                  <li>Try light exposure therapy or gentle movement like yoga.</li>
                 </ul>
               </div>
             </article>
@@ -165,75 +92,42 @@
           <!-- Burnout & Fatigue Card -->
           <div class="col-12 col-md-4">
             <article class="card mb-3 sharp-corners h-100">
-              <img
-                src="assets/images/burnout.png"
-                class="card-img-top"
-                alt="Person experiencing burnout"
-              >
-              <div
-                class="card-body p-4 pt-burnout d-flex flex-column h-100 text-center"
-              >
+              <img src="assets/images/burnout.png" class="card-img-top" alt="Person experiencing burnout">
+              <div class="card-body p-4 pt-burnout d-flex flex-column h-100 text-center">
                 <h3 class="card-title">Burnout & Fatigue</h3>
-                <p class="card-text">
-                  <strong>Symptoms:</strong> Feeling drained, detached,
-                  irritable, hopeless, or chronically overwhelmed by
-                  responsibilities.
-                </p>
+                <p class="card-text"><strong>Symptoms:</strong> Feeling drained, detached, irritable, hopeless, or chronically overwhelmed by responsibilities.</p>
                 <strong>Support Strategies:</strong>
                 <ul class="text-start">
-                  <li>
-                    Create space for rest — mental breaks count as healing time.
-                  </li>
+                  <li>Create space for rest — mental breaks count as healing time.</li>
                   <li>Set realistic boundaries and say no without guilt.</li>
-                  <li>
-                    Engage in restorative activities (nature walks, journaling,
-                    creative outlets).
-                  </li>
-                  <li>
-                    Talk with a counselor to rebuild emotional resilience.
-                  </li>
+                  <li>Engage in restorative activities (nature walks, journaling, creative outlets).</li>
+                  <li>Talk with a counselor to rebuild emotional resilience.</li>
                 </ul>
               </div>
             </article>
           </div>
         </div>
       </section>
+
       <!-- What We Do Section -->
-      <section id="us" class="container about-custom">
+      <section id="us" class="about-custom">
         <div class="row">
           <div class="col-12 text-center my-4">
             <h2 class="display-5">What we do</h2>
           </div>
           <div class="col-12 col-md-6 mb-4">
-            <img
-              src="assets/images/meditation-art.webp"
-              class="img-fluid rounded sharp-corners"
-              alt="Meditation illustration"
-            >
+            <img src="assets/images/meditation-art.webp" class="img-fluid rounded sharp-corners" alt="Meditation illustration">
           </div>
-          <div
-            class="col-12 col-md-6 mb-4 d-flex align-items-center flex-column justify-content-center"
-          >
-            <p>
-              We provide clear, actionable advice for everyday mental health
-              challenges, making self-care approachable for everyone.
-            </p>
-            <p>
-              Our platform curates trusted articles, worksheets, and tips from
-              leading organizations, helping users build healthy habits and find
-              support when needed.
-            </p>
-            <p>
-              We connect people to local and online resources, encourage open
-              conversations, and offer guidance for those seeking help for
-              themselves or loved ones.
-            </p>
+          <div class="col-12 col-md-6 mb-4 d-flex align-items-center flex-column justify-content-center">
+            <p>We provide clear, actionable advice for everyday mental health challenges, making self-care approachable for everyone.</p>
+            <p>Our platform curates trusted articles, worksheets, and tips from leading organizations, helping users build healthy habits and find support when needed.</p>
+            <p>We connect people to local and online resources, encourage open conversations, and offer guidance for those seeking help for themselves or loved ones.</p>
           </div>
         </div>
       </section>
 
       <!-- Informative Advice Section -->
-      <section id="info" class="container pb-4">
+      <section id="info" class="pb-4">
         <div class="row justify-content-evenly align-items-stretch mt-4">
           <div class="col-12 text-center my-4">
             <h2 class="display-5">Informative Advice</h2>
@@ -241,85 +135,39 @@
           <!-- Talk It Through Card -->
           <div class="col-12 col-md-4">
             <article class="card mb-3 sharp-corners h-100">
-              <img
-                src="assets/images/about-us.png"
-                class="card-img-top pt-talk-img"
-                alt="Support group illustration"
-              >
+              <img src="assets/images/about-us.png" class="card-img-top pt-talk-img" alt="Support group illustration">
               <div class="card-body p-4 d-flex flex-column text-center align-talk h-100">
                 <h3 class="card-title">Talk It Through</h3>
                 <p class="card-text">
-                  Sharing your thoughts with someone you trust can lighten the
-                  weight. You don’t need to have the “right” words — just
-                  starting the conversation helps. If you're not ready to talk
-                  to someone you know, Samaritans (116 123, 24/7) and Shout
-                  (text ‘SHOUT’ to 85258) offer confidential, judgment-free
-                  spaces to be heard.
+                  Sharing your thoughts with someone you trust can lighten the weight. You don’t need to have the “right” words — just starting the conversation helps. If you're not ready to talk to someone you know, Samaritans (116 123, 24/7) and Shout (text ‘SHOUT’ to 85258) offer confidential, judgment-free spaces to be heard.
                 </p>
-                <a
-          href="https://www.samaritans.org/how-we-can-help/contact-samaritan/"
-          target="_blank"
-          aria-label="Visit Samaritans"
-          rel="noopener"
-          class="btn btn-primary advice-link"
-          >Samaritans</a>
+                <a href="https://www.samaritans.org/how-we-can-help/contact-samaritan/" target="_blank" aria-label="Visit Samaritans" rel="noopener" class="btn btn-primary advice-link">Samaritans</a>
               </div>
             </article>
           </div>
           <!-- Breathe Into Calm Card -->
           <div class="col-12 col-md-4">
             <article class="card mb-3 sharp-corners h-100">
-              <img
-                src="assets/images/card-1.png"
-                class="card-img-top"
-                alt="Calm breathing illustration"
-              >
+              <img src="assets/images/card-1.png" class="card-img-top" alt="Calm breathing illustration">
               <div class="card-body p-4 d-flex flex-column text-center h-100">
                 <h3 class="card-title">Breathe Into Calm</h3>
                 <p class="card-text">
-                  Take a moment to pause. Deep breathing activates your
-                  parasympathetic nervous system and soothes your stress
-                  response. Try the 4-7-8 method — inhale for 4 seconds, hold
-                  for 7, exhale for 8. Apps like Headspace or Calm offer guided
-                  breathing and mindfulness sessions. Many NHS mental health
-                  services also offer free wellbeing tools online.
+                  Take a moment to pause. Deep breathing activates your parasympathetic nervous system and soothes your stress response. Try the 4-7-8 method — inhale for 4 seconds, hold for 7, exhale for 8. Apps like Headspace or Calm offer guided breathing and mindfulness sessions. Many NHS mental health services also offer free wellbeing tools online.
                 </p>
-                <a
-          href="https://www.nhs.uk/nhs-services/mental-health-services/"
-          target="_blank"
-          aria-label="Visit NHS Mental Health Services"
-          rel="noopener"
-          class="btn btn-primary advice-link"
-          >NHS Mental Health Services</a>
+                <a href="https://www.nhs.uk/nhs-services/mental-health-services/" target="_blank" aria-label="Visit NHS Mental Health Services" rel="noopener" class="btn btn-primary advice-link">NHS Mental Health Services</a>
               </div>
-              
             </article>
           </div>
           <!-- You're Not Alone Card -->
           <div class="col-12 col-md-4 mt-4 mt-md-0 card-alone">
             <article class="card mb-3 sharp-corners h-100">
-              <img
-                src="assets/images/meditation-pose.png"
-                class="card-img-top"
-                alt="Meditation pose illustration"
-              >
+              <img src="assets/images/meditation-pose.png" class="card-img-top" alt="Meditation pose illustration">
               <div class="card-body p-4 pt-alone flex-column text-center h-100">
                 <h3 class="card-title">You're Not Alone</h3>
                 <p class="card-text">
-                  Feeling overwhelmed isn’t a failure — it’s a signal. Reach for
-                  support as you would extend a hand to someone else. Compassion
-                  starts with you. The NHS offers a confidential mental health
-                  support line, and charities like Rethink Mental Illness or
-                  YoungMinds have online support tailored to different ages and
-                  needs.
+                  Feeling overwhelmed isn’t a failure — it’s a signal. Reach for support as you would extend a hand to someone else. Compassion starts with you. The NHS offers a confidential mental health support line, and charities like Rethink Mental Illness or YoungMinds have online support tailored to different ages and needs.
                 </p>
-                <a
-          href="https://www.youngminds.org.uk/"
-          target="_blank"
-          aria-label="Visit YoungMinds"
-          rel="noopener"
-          class="btn btn-primary advice-link"
-          >YoungMinds</a>
+                <a href="https://www.youngminds.org.uk/" target="_blank" aria-label="Visit YoungMinds" rel="noopener" class="btn btn-primary advice-link">YoungMinds</a>
               </div>
             </article>
           </div>
@@ -328,74 +176,39 @@
           <!-- Nourish Your Mind Card -->
           <div class="col-12 col-md-6">
             <article class="card mb-3 sharp-corners h-100">
-              <img
-                src="assets/images/card-2.png"
-                class="card-img-top"
-                alt="Mindful habits illustration"
-              >
+              <img src="assets/images/card-2.png" class="card-img-top" alt="Mindful habits illustration">
               <div class="card-body p-4 d-flex flex-column text-center h-100">
                 <h3 class="card-title">Nourish Your Mind</h3>
                 <p class="card-text">
-                  What we consume mentally shapes how we feel. Gently curate
-                  your environment — reduce doomscrolling, follow accounts that
-                  uplift, and notice what gives you energy. Mind offers
-                  articles, worksheets, and free self-care tips designed to
-                  gently guide your habits toward healing. Check out their “How
-                  to improve your mental wellbeing” section.
+                  What we consume mentally shapes how we feel. Gently curate your environment — reduce doomscrolling, follow accounts that uplift, and notice what gives you energy. Mind offers articles, worksheets, and free self-care tips designed to gently guide your habits toward healing. Check out their “How to improve your mental wellbeing” section.
                 </p>
-                <a
-          href="https://www.mind.org.uk/"
-          target="_blank"
-          aria-label="Visit Mind"
-          rel="noopener"
-          class="btn btn-primary advice-link btn-bottom-mind"
-          >Mind</a>
+                <a href="https://www.mind.org.uk/" target="_blank" aria-label="Visit Mind" rel="noopener" class="btn btn-primary advice-link btn-bottom-mind">Mind</a>
               </div>
             </article>
           </div>
           <!-- Move With Kindness Card -->
           <div class="col-12 col-md-6">
             <article class="card mb-3 sharp-corners h-100">
-              <img
-                src="assets/images/exercise.png"
-                class="card-img-top"
-                alt="Gentle exercise illustration"
-              >
+              <img src="assets/images/exercise.png" class="card-img-top" alt="Gentle exercise illustration">
               <div class="card-body p-4 d-flex flex-column text-center h-100">
                 <h3 class="card-title">Move With Kindness</h3>
                 <p class="card-text">
-                  Physical movement isn’t about intensity — it’s about presence.
-                  Even gentle stretching or walking outdoors can lift your mood,
-                  especially when paired with soft music or natural
-                  surroundings. Local community centres, leisure groups, and
-                  even online yoga sessions can offer movement in safe,
-                  supported spaces. The Mental Health Foundation offers free
-                  movement-based mental wellbeing resources.
+                  Physical movement isn’t about intensity — it’s about presence. Even gentle stretching or walking outdoors can lift your mood, especially when paired with soft music or natural surroundings. Local community centres, leisure groups, and even online yoga sessions can offer movement in safe, supported spaces. The Mental Health Foundation offers free movement-based mental wellbeing resources.
                 </p>
-                <a
-          href="https://www.gov.uk/find-a-community-support-group-or-organisation"
-          target="_blank"
-          aria-label="Visit Government Support"
-          rel="noopener"
-          class="btn btn-primary advice-link"
-          >Government Support</a>
+                <a href="https://www.gov.uk/find-a-community-support-group-or-organisation" target="_blank" aria-label="Visit Government Support" rel="noopener" class="btn btn-primary advice-link">Government Support</a>
               </div>
             </article>
-            
-          
-        
+          </div>
+        </div>
       </section>
+
       <!-- Contact Section -->
-      <section id="contact" class="container gap-large">
+      <section id="contact" class="gap-large">
         <div class="row">
           <div class="col-12 text-center mb-4">
             <h2 class="display-5">Contact Us</h2>
             <p class="lead">
-              Please feel free to reach out with any questions, comments, or
-              concerns. We are here to help and support you, whether that is
-              anonymously or not. We are here to listen and help you in any way
-              we can. Or if you just want to say hi, we would love to hear from
-              you!
+              Please feel free to reach out with any questions, comments, or concerns. We are here to help and support you, whether that is anonymously or not. We are here to listen and help you in any way we can. Or if you just want to say hi, we would love to hear from you!
             </p>
           </div>
         </div>
@@ -404,197 +217,89 @@
             <form class="row g-3 sharp-corners">
               <div class="col-lg-4">
                 <label for="full-name" class="form-label">Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="full-name"
-                  autocomplete="name"
-                >
+                <input type="text" class="form-control" id="full-name" autocomplete="name">
               </div>
               <div class="col-lg-4">
                 <label for="phone-number" class="form-label">Number</label>
-                <input
-                  type="tel"
-                  class="form-control"
-                  id="phone-number"
-                  autocomplete="tel"
-                >
+                <input type="tel" class="form-control" id="phone-number" autocomplete="tel">
               </div>
               <div class="col-lg-4">
                 <label for="email" class="form-label">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  autocomplete="email"
-                  required
-                >
+                <input type="email" class="form-control" id="email" autocomplete="email" required>
               </div>
               <div class="col-12">
                 <label for="message" class="form-label">Message</label>
-                <textarea
-                  class="form-control"
-                  id="message"
-                  rows="3"
-                  autocomplete="off"
-                  required
-                ></textarea>
+                <textarea class="form-control" id="message" rows="3" autocomplete="off" required></textarea>
               </div>
               <div class="col-12">
-                <button type="submit" class="btn btn-primary button">
-                  Send
-                </button>
+                <button type="submit" class="btn btn-primary button">Send</button>
               </div>
             </form>
           </div>
         </div>
       </section>
     </main>
-    <!-- End of Main Content -->
-    <!-- =========================
-         Footer Section
-    ========================= -->
+
+    <!-- Footer Section -->
     <footer id="footer" class="footer-custom container-fluid">
       <!-- Footer Carousel: Positive Affirmations -->
       <div class="row mt-2">
         <div class="col-12">
-          <div
-            id="carouselAutoplaying"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <!-- Carousel Next Button -->
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselAutoplaying"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
+          <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
-            <!-- Carousel Items -->
             <div class="carousel-inner text-center">
-              <div class="carousel-item active">
-                <p>"You are enough, just as you are."</p>
-              </div>
-              <div class="carousel-item">
-                <p>"Every day is a fresh start."</p>
-              </div>
-              <div class="carousel-item">
-                <p>"You have the strength to overcome anything."</p>
-              </div>
+              <div class="carousel-item active"><p>"You are enough, just as you are."</p></div>
+              <div class="carousel-item"><p>"Every day is a fresh start."</p></div>
+              <div class="carousel-item"><p>"You have the strength to overcome anything."</p></div>
               <div class="carousel-item"><p>"Your feelings are valid."</p></div>
-              <div class="carousel-item">
-                <p>"You are worthy of love and kindness."</p>
-              </div>
-              <div class="carousel-item">
-                <p>"Small steps forward are still progress."</p>
-              </div>
+              <div class="carousel-item"><p>"You are worthy of love and kindness."</p></div>
+              <div class="carousel-item"><p>"Small steps forward are still progress."</p></div>
               <div class="carousel-item"><p>"You are not alone."</p></div>
-              <div class="carousel-item">
-                <p>"It’s okay to ask for help."</p>
-              </div>
-              <div class="carousel-item">
-                <p>"You are doing your best, and that is enough."</p>
-              </div>
+              <div class="carousel-item"><p>"It’s okay to ask for help."</p></div>
+              <div class="carousel-item"><p>"You are doing your best, and that is enough."</p></div>
             </div>
-            <!-- Carousel Previous Button -->
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselAutoplaying"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
           </div>
         </div>
       </div>
       <!-- Footer Links: Logo and Social Media -->
-      <div
-        class="d-flex align-items-start container-fluid"
-        style="min-height: 20px"
-      >
-        <!-- Footer Logo -->
+      <div class="d-flex align-items-start container-fluid" style="min-height: 20px">
         <a href="index.html" aria-label="Visit our homepage" class="me-3">
-          <img
-            src="assets/images/logo-32x32.png"
-            alt="ZenBloom logo"
-            class="logo"
-          >
+          <img src="assets/images/logo-32x32.png" alt="ZenBloom logo" class="logo">
         </a>
-        <!-- Social Media Links -->
-        <a
-          href="https://www.facebook.com/"
-          target="_blank"
-          aria-label="Visit our Facebook page"
-          rel="noopener"
-          class="a-custom me-2"
-          ><i class="fa-brands fa-facebook-f"></i></a>
-        <a
-          href="https://twitter.com/"
-          target="_blank"
-          aria-label="Visit our Twitter page"
-          rel="noopener"
-          class="a-custom me-2"
-          ><i class="fa-brands fa-x-twitter"></i></a>
-        <a
-          href="https://www.instagram.com/"
-          target="_blank"
-          aria-label="Visit our Instagram page"
-          rel="noopener"
-          class="a-custom me-2"
-          ><i class="fa-brands fa-instagram"></i></a>
-        <!-- Copyright Notice -->
-        <p class="footer-copyright text-center w-100">
-          &copy; 2025 ZenBloom. All rights reserved.
-        </p>
+        <a href="https://www.facebook.com/" target="_blank" aria-label="Visit our Facebook page" rel="noopener" class="a-custom me-2"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://twitter.com/" target="_blank" aria-label="Visit our Twitter page" rel="noopener" class="a-custom me-2"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" aria-label="Visit our Instagram page" rel="noopener" class="a-custom me-2"><i class="fa-brands fa-instagram"></i></a>
+        <p class="footer-copyright text-center w-100">&copy; 2025 ZenBloom. All rights reserved.</p>
       </div>
     </footer>
 
-    <!-- =========================
-         Scripts
-    ========================= -->
-    <!-- Bootstrap JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/7e4050e0f7.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Navbar collapse on in-page link -->
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7e4050e0f7.js" crossorigin="anonymous"></script>
     <script>
       // Collapse navbar after clicking in-page links and smooth scroll to section
-      document
-        .querySelectorAll(".navbar-collapse .nav-link")
-        .forEach((link) => {
-          link.addEventListener("click", function (e) {
-            let section = document.querySelector(e.target.getAttribute("href"));
-            if (section) {
-              e.preventDefault();
-              let navbar = document.querySelector(".navbar");
-              let navbarHeight = navbar ? navbar.offsetHeight : 58.41;
-              window.scroll({
-                top: section.offsetTop - navbarHeight,
-                behavior: "smooth",
-              });
-              document
-                .querySelector(".navbar-collapse")
-                .classList.remove("show");
-            }
-          });
+      document.querySelectorAll(".navbar-collapse .nav-link").forEach((link) => {
+        link.addEventListener("click", function (e) {
+          let section = document.querySelector(e.target.getAttribute("href"));
+          if (section) {
+            e.preventDefault();
+            let navbar = document.querySelector(".navbar");
+            let navbarHeight = navbar ? navbar.offsetHeight : 58.41;
+            window.scroll({
+              top: section.offsetTop - navbarHeight,
+              behavior: "smooth",
+            });
+            document.querySelector(".navbar-collapse").classList.remove("show");
+          }
         });
+      });
     </script>
   </body>
 </html>
