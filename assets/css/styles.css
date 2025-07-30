@@ -30,6 +30,10 @@ main.container {
 /* =========================
    Typography
    ========================= */
+h1 {
+  font-size: large;
+}
+
 h1,
 header h1 {
   font-family: "Roboto Mono", "Roboto", Arial, sans-serif !important;
@@ -164,6 +168,32 @@ nav.nav-custom {
 }
 #hero .lead {
   margin-bottom: 1.5rem;
+}
+
+/* Tablet: 768px–991.98px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #hero .lead {
+    margin-top: -40px !important; /* Pushes lead text up under the header */
+     max-width: 350px;
+    white-space: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Small desktop: 992px–1199.98px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #hero .lead {
+    margin-top: -40px !important; /* Pushes lead text up under the header */
+  }
+}
+
+/* Mobile: up to 767.98px */
+@media (max-width: 767.98px) {
+  #hero .lead {
+    margin-top: -30px !important; /* Pushes lead text up under the header */
+  }
 }
 
 /* =========================
@@ -432,6 +462,19 @@ button:hover,
   }
   .pt-talk-img {
     padding-top: 75px !important;
+  }
+}
+
+/* Center image vertically left of text for 768px–1199.98px */
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  #us .row {
+    display: flex;
+    align-items: center;
+  }
+  #us .col-md-6.mb-4:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
