@@ -107,7 +107,7 @@ nav.nav-custom {
    ========================= */
 #hero {
   background-color: var(--main-bg);
-  background-image: url("../images/hero.jpeg");
+  background-image: url("../images/hero.webp");
   background-size: cover;
   background-position: top;
   box-shadow: #38746a 0px 0px 10px;
@@ -223,7 +223,7 @@ nav.nav-custom {
 footer.footer-custom {
   font-family: "Raleway", sans-serif;
   background-color: var(--main-bg);
-  width: 100%;
+  width: 100% ;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   position: fixed;
   left: 0;
