@@ -3,19 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Meta Tags -->
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <title>Mental Health Wellness</title>
-    <!--Bootstrap link-->
+    <meta
+      name="description"
+      content="ZenBloom - Mindfulness for Mental Wellness"
+    />
+    <meta
+      name="keywords"
+      content="mental health, mindfulness, wellness, support"
+    />
+    <title>ZenBloom</title>
+    <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
     <!-- Favicon -->
-
     <link
       rel="icon"
       type="image/png"
@@ -28,18 +31,18 @@
       sizes="16x16"
       href="assets/favicon/fav-16x16.png"
     />
-
-    <!-- CSS link -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
-
   <body class="d-flex flex-column min-vh-100">
-    <!-- Navigation Bar -->
+    <!-- =========================
+         Navigation Bar
+    ========================= -->
     <nav class="navbar navbar-expand-lg nav-custom sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html"
-          ><img src="assets/images/logo-32x32.png" alt="Logo"
-        /></a>
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/logo-64x64.png" alt="ZenBloom logo" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -62,91 +65,33 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Info</a>
+              <a class="nav-link" href="#symptoms">Symptoms</a>
             </li>
-
+            <li class="nav-item"><a class="nav-link" href="#us">Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#info">Info</a></li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Header -->
-    <header></header>
-    <!-- Main Content -->
-    <main></main>
-    <!-- Footer -->
-    <footer
-      id="footer"
-      class="footer-custom container-fluid mt-auto fixed-bottom px-0"
-    >
-      <!-- Carousel centered and lifted above -->
-      <div class="row">
-        <div class="col-12 d-flex justify-content-center mb-3">
+   
+
+    <!-- =========================
+         Footer Section
+    ========================= -->
+    <footer id="footer" class="footer-custom container-fluid">
+      <!-- Footer Carousel: Positive Affirmations -->
+      <div class="row mt-2">
+        <div class="col-12">
           <div
             id="carouselAutoplaying"
             class="carousel slide"
             data-bs-ride="carousel"
-            style="max-width: 500px; width: 100%"
           >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="assets/images/change-mind-affirm.png"
-                  class="d-block w-100 carousel-img-fixed"
-                  alt=""
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="assets/images/meditation-art.png"
-                  class="d-block w-100 carousel-img-fixed"
-                  alt=""
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="assets/images/gentle-affirm.png"
-                  class="d-block w-100 carousel-img-fixed"
-                  alt=""
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="assets/images/meditation-pose.png"
-                  class="d-block w-100 carousel-img-fixed"
-                  alt=""
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="assets/images/truth-affirm.png"
-                  class="d-block w-100 carousel-img-fixed"
-                  alt="."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="assets/images/eye-mandala.png"
-                  class="d-block w-100 carousel-img-fixed"
-                  alt="."
-                />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselAutoplaying"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
+            <!-- Carousel Next Button -->
             <button
               class="carousel-control-next"
               type="button"
@@ -159,68 +104,107 @@
               ></span>
               <span class="visually-hidden">Next</span>
             </button>
+            <!-- Carousel Items -->
+            <div class="carousel-inner text-center">
+              <div class="carousel-item active">
+                <p>"You are enough, just as you are."</p>
+              </div>
+              <div class="carousel-item">
+                <p>"Every day is a fresh start."</p>
+              </div>
+              <div class="carousel-item">
+                <p>"You have the strength to overcome anything."</p>
+              </div>
+              <div class="carousel-item"><p>"Your feelings are valid."</p></div>
+              <div class="carousel-item">
+                <p>"You are worthy of love and kindness."</p>
+              </div>
+              <div class="carousel-item">
+                <p>"Small steps forward are still progress."</p>
+              </div>
+              <div class="carousel-item"><p>"You are not alone."</p></div>
+              <div class="carousel-item">
+                <p>"It’s okay to ask for help."</p>
+              </div>
+              <div class="carousel-item">
+                <p>"You are doing your best, and that is enough."</p>
+              </div>
+            </div>
+            <!-- Carousel Previous Button -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselAutoplaying"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
           </div>
         </div>
       </div>
-      <!-- Logo and social links side by side, logo left -->
-      <div class="row">
-        <div class="col-12 col-md-6">
-          <div class="d-flex align-items-center">
-            <a
-              href="index.html"
-              target="_blank"
-              aria-label="Visit our homepage (opens in new tab)"
-              class="me-3"
-            >
-              <img
-                src="assets/images/logo-32x32.png"
-                alt="Boardwalk Games logo"
-                class="logo"
-              />
-            </a>
-            <div>
-              <a
-                href="https://www.facebook.com/"
-                target="_blank"
-                aria-label="Visit our Facebook page (opens in new tab)"
-                rel="noopener"
-                class="a-custom me-2"
-                ><i class="fa-brands fa-facebook-f"></i
-              ></a>
-              <a
-                href="https://twitter.com/"
-                target="_blank"
-                aria-label="Visit our Twitter page (opens in new tab)"
-                rel="noopener"
-                class="a-custom me-2"
-                ><i class="fa-brands fa-x-twitter"></i
-              ></a>
-              <a
-                href="https://www.instagram.com/"
-                target="_blank"
-                aria-label="Visit our Instagram page (opens in new tab)"
-                rel="noopener"
-                class="a-custom me-2"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-            </div>
-          </div>
-        </div>
+      <!-- Footer Links: Logo and Social Media -->
+      <div
+        class="d-flex align-items-start container-fluid"
+        style="min-height: 20px"
+      >
+        <!-- Footer Logo -->
+        <a href="index.html" aria-label="Visit our homepage" class="me-3">
+          <img
+            src="assets/images/logo-32x32.png"
+            alt="ZenBloom logo"
+            class="logo"
+          />
+        </a>
+        <!-- Social Media Links -->
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          aria-label="Visit our Facebook page"
+          rel="noopener"
+          class="a-custom me-2"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a
+          href="https://twitter.com/"
+          target="_blank"
+          aria-label="Visit our Twitter page"
+          rel="noopener"
+          class="a-custom me-2"
+          ><i class="fa-brands fa-x-twitter"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          aria-label="Visit our Instagram page"
+          rel="noopener"
+          class="a-custom me-2"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <!-- Copyright Notice -->
+        <p class="footer-copyright text-center w-100">
+          &copy; 2025 Mental Health Wellness. All rights reserved.
+        </p>
       </div>
     </footer>
 
-    <!--bootstrap script-->
+    <!-- =========================
+         Scripts
+    ========================= -->
+    <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
-    <!--font awesome link-->
+    <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/7e4050e0f7.js"
       crossorigin="anonymous"
     ></script>
-    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <!-- Navbar collapse on in-page link -->
     <script>
       document
         .querySelectorAll(".navbar-collapse .nav-link")
@@ -228,16 +212,16 @@
           link.addEventListener("click", function (e) {
             let section = document.querySelector(e.target.getAttribute("href"));
             if (section) {
-              e.preventDefault(); // Prevent default anchor click behavior
-              let navbarHeight =
-                document.querySelector(".navbar-toggler").offsetHeight;
+              e.preventDefault();
+              let navbar = document.querySelector(".navbar");
+              let navbarHeight = navbar ? navbar.offsetHeight : 58.41;
               window.scroll({
-                top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                top: section.offsetTop - navbarHeight,
                 behavior: "smooth",
               });
               document
                 .querySelector(".navbar-collapse")
-                .classList.remove("show"); // Collapse navbar
+                .classList.remove("show");
             }
           });
         });
