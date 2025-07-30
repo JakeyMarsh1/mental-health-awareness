@@ -71,12 +71,47 @@ h6 {
   padding: 2rem 0 !important;
 }
 
+/* Burnout & Fatigue card body top padding */
 .pt-burnout {
-  padding-top: 2rem !important;
+  padding-top: 2.5rem !important;
 }
 
+/* Default top padding for You're Not Alone card */
 .pt-alone {
   padding-top: 3rem !important;
+}
+
+/* Tablet: 768px–991.98px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card-body.pt-alone {
+    padding-top: 2rem !important;
+  }
+}
+
+/* Small desktop: 992px–1199.98px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .card-body.pt-alone {
+    padding-top: 3.5rem !important;
+  }
+}
+
+/* Default top margin for the whole card */
+.card-alone {
+  margin-top: 0 !important;
+}
+
+/* Tablet: 768px–991.98px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card-alone {
+    margin-top: 2rem !important;
+  }
+}
+
+/* Small desktop: 992px–1199.98px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .card-alone {
+    margin-top: 2rem !important;
+  }
 }
 
 /* General Paragraphs */
@@ -132,6 +167,29 @@ nav.nav-custom {
 }
 
 /* =========================
+   About Section
+   ========================= */
+
+/* Default paragraph spacing */
+.about-custom p {
+  margin-bottom: -2rem;
+}
+
+/* Reduce spacing for tablets (768px–991px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .about-custom p {
+    margin-bottom: -3rem;
+  }
+}
+
+/* Slightly reduce spacing for small desktops (992px–1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .about-custom p {
+    margin-bottom: -1.5rem;
+  }
+}
+
+/* =========================
    Card Section (Info, Symptoms, Advice)
    ========================= */
 .card {
@@ -163,6 +221,18 @@ nav.nav-custom {
   }
   .card .card-body {
     padding: 1rem !important;
+  }
+}
+
+/* Default Burnout & Fatigue card body top padding */
+.pt-burnout {
+  padding-top: 3.4rem !important;
+}
+
+/* Burnout & Fatigue card body alignment for tablets (768px–991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card-body.pt-burnout {
+    padding-top: 2.4rem !important;
   }
 }
 
@@ -286,6 +356,7 @@ button:hover,
   color: #fff !important;
 }
 
+/* Button at bottom of "You're Not Alone" card */
 .btn-bottom-alone {
   position: absolute;
   bottom: 1.5rem;
@@ -294,6 +365,13 @@ button:hover,
   width: calc(
     100% - 2rem
   ); /* Optional: makes button full width minus padding */
+}
+
+/* Tablet: 768px–991.98px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .btn-bottom-alone {
+    bottom: 1rem !important; /* Increase this value to push the button lower */
+  }
 }
 
 /* =========================
@@ -356,3 +434,7 @@ button:hover,
     padding-top: 75px !important;
   }
 }
+
+/* =========================
+   END OF FILE
+   ========================= */
