@@ -441,7 +441,7 @@ button:hover,
 .container-custom {
   background-color: var(--main-bg);
   padding: 1rem;
-  box-shadow: #38746a 0px 0px 10px;
+  box-shadow: 0 8px 24px 0 #38746a;
   margin-top: 30px;
   padding-bottom: 10px;
 }
