@@ -198,12 +198,7 @@ nav.nav-custom {
 
 /* Burnout & Fatigue card body top padding */
 .pt-burnout {
-  padding-top: 3.4rem !important;
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .card-body.pt-burnout {
-    margin-bottom: -3rem !important;
-  }
+ margin-top: 1.5rem !important;
 }
 
 /* About Section Paragraphs (Tablet) */
@@ -223,9 +218,12 @@ nav.nav-custom {
 
 /* Custom Anxiety Card Padding */
 @media (min-width: 997px) and (max-width: 1199.98px) {
-  .anxiety-card {
-    padding: 2rem !important;
+  .anxiety-card .card-body {
+    min-height: unset !important;
+    justify-content: flex-start !important;
+    margin-bottom: 2rem !important;
   }
+  
 }
 @media (min-width: 1199.98px) {
   .anxiety-card {
@@ -431,6 +429,7 @@ button:hover,
 .pt-symptom-img {
   padding-top: 17px !important;
 }
+
 @media (min-width: 1200px) and (max-width: 1400px) {
   .align-talk {
     padding-top: 90px !important;
@@ -526,5 +525,34 @@ footer.footer-custom {
 @media (min-width: 992px) and (max-width: 1200px) {
   .card-title:contains("Move With Kindness") + .card-text {
     margin-bottom: -8px !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .btn-bottom-mind {
+    margin-top: 1.5rem !important;
+  }
+  /* Optionally, add margin-bottom to the card-text for extra spacing */
+  .btn-bottom-mind ~ p.card-text {
+    margin-bottom: 20px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 997px) {
+  .anxiety-card .card-title {
+    margin-bottom: 1.25rem !important;
+  }
+  .anxiety-card .card-text {
+    margin-top: 1.5rem !important;
+    margin-bottom:1.5rem !important;
+  }
+  .anxiety-card .card-body {
+    min-height: unset !important;
+    justify-content: flex-start !important;
+    margin-bottom: 3rem !important;
+    padding-top: 1rem !important;
+    padding-bottom: 4rem !important;
+  }
+
+  .anxiety-card ul {
+    padding-bottom: 3rem !important;
   }
 }
