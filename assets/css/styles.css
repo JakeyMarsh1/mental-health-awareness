@@ -144,6 +144,16 @@ nav.nav-custom {
     margin-top: -40px !important;
   }
 }
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+#hero {
+  padding-top: 150px; /* Space above text */
+  padding-bottom: 30px;
+  margin-top: 40px !important;
+  background-position: center 40px; /* Move lotus down by 40px */
+}
+}
+
 @media (max-width: 767.98px) {
   #hero .lead {
     margin-top: -30px !important;
@@ -153,8 +163,15 @@ nav.nav-custom {
   #hero {
     max-width: 1400px;
     margin: 0 auto;
-    padding-top: 90px;
+    padding-top: 180px; /* Increase to push content down below lotus */
     padding-bottom: 90px;
+    background-position: center 0px; /* Move lotus up (0px from top) */
+  }
+  #hero-title > h2, #hero-title > h3 {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
   }
 }
 
