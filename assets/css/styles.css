@@ -37,10 +37,11 @@ body {
   background-image: url("../images/background-image.webp");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom; /* changed from center center */
   background-color: var(--main-bg);
   font-family: "Raleway", sans-serif;
-  margin-bottom: 140px;
+  padding-bottom: 80px; /* match footer height */
+  margin-bottom: 0;     /* remove margin-bottom */
 }
 
 
@@ -150,7 +151,7 @@ nav.nav-custom {
 }
 @media (min-width: 1400px) {
   #hero {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding-top: 90px;
     padding-bottom: 90px;
@@ -256,6 +257,7 @@ footer.footer-custom {
   align-items: center;
   padding-top: 4px;
   padding-bottom: 4px;
+  height: 80px; /* set explicit height for footer */
 }
 
 footer.footer-custom .logo {
