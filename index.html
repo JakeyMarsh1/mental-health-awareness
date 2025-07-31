@@ -285,22 +285,25 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/7e4050e0f7.js" crossorigin="anonymous"></script>
     <script>
-      // Collapse navbar after clicking in-page links and smooth scroll to section
-      document.querySelectorAll(".navbar-collapse .nav-link").forEach((link) => {
-        link.addEventListener("click", function (e) {
-          let section = document.querySelector(e.target.getAttribute("href"));
-          if (section) {
-            e.preventDefault();
-            let navbar = document.querySelector(".navbar");
-            let navbarHeight = navbar ? navbar.offsetHeight : 58.41;
-            window.scroll({
-              top: section.offsetTop - navbarHeight,
-              behavior: "smooth",
-            });
-            document.querySelector(".navbar-collapse").classList.remove("show");
-          }
-        });
-      });
-    </script>
+  // Collapse navbar after clicking in-page links and smooth scroll to section
+  document.querySelectorAll(".navbar-collapse .nav-link").forEach((link) => {
+    link.addEventListener("click", function (e) {
+      let section = document.querySelector(e.target.getAttribute("href"));
+      if (section) {
+        e.preventDefault();
+        document.querySelector(".navbar-collapse").classList.remove("show");
+        // Wait for collapse animation to finish before scrolling
+        setTimeout(() => {
+          let navbar = document.querySelector(".navbar");
+          let navbarHeight = navbar ? navbar.offsetHeight : 58.41;
+          window.scroll({
+            top: section.offsetTop - navbarHeight,
+            behavior: "smooth",
+          });
+        }, 350); // Adjust delay to match collapse animation duration
+      }
+    });
+  });
+</script>
   </body>
 </html>
