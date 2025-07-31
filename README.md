@@ -50,7 +50,7 @@ User stories followed the format:
 *As a [user type], I want [goal] so that [benefit].*  
 Copilot assisted with defining purpose, color palettes, layout clarity, and accessibility strategy.
 
-![Chosen Color Palette](assets/images-readme/palette.png)  
+![Chosen Color Palette](assets/images-readme/Palette.png)  
 *Figure 1: Chosen color palette for calming aesthetics*
 
 ![User Stories](assets/images-readme/user-stories.png)  
@@ -70,12 +70,13 @@ Wireframes were created using a mobile-first approach to ensure responsive desig
 ![Wireframes](assets/images-readme/wireframes.png)  
 *Figure 4: Mobile and desktop wireframes*
 
+
 ### 💻 Technical Setup
 
 VS Code was configured with basic HTML boilerplate, Bootstrap via CDN, and organized file structure.
 
 ![VS Code Setup](assets/images-readme/vscode-setup.png)  
-*Figure 5: Initial coding environment and folder structure*
+*Figure 7: Initial coding environment and folder structure*
 
 ### ✅ Code Quality and Validation
 
@@ -86,14 +87,20 @@ VS Code was configured with basic HTML boilerplate, Bootstrap via CDN, and organ
 - Autoprefixer used for cross-browser compatibility
 
 ![Validation](assets/images-readme/validation.png)  
-*Figure 6: W3C validation results*
+*Figure 8: W3C validation results*
+
+![Mobile](assets/images-readme/Screenshot%20(11).png)  
+*Figure 5: Lighthouse Mobile*
+
+![Desktop](assets/images-readme/Screenshot%20(12).png)  
+*Figure 6: Lighthouse Desktop*
 
 ### 🚀 Deployment
 
 The project was deployed via GitHub Pages, with commit history and live auditing.
 
 ![Deployment](assets/images-readme/github-pages.png)  
-*Figure 7: GitHub Pages configuration and success message*
+*Figure 9: GitHub Pages configuration and success message*
 
 ---
 
@@ -180,7 +187,8 @@ AI tools played a strategic role in supporting this project:
 
 - **Imagery:**  
   - Icons via Font Awesome  
-  - Background images from [Unsplash](https://unsplash.com/) licensed under the Unsplash License
+  - Background images from [Unsplash](https://unsplash.com/) licensed under the Unsplash License  
+  - All screenshots and wireframes in [assets/images-readme/](assets/images-readme/)
 
 ---
 
