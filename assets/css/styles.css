@@ -38,11 +38,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
   background-color: var(--main-bg);
   font-family: "Raleway", sans-serif;
   margin-bottom: 140px;
 }
+
 
 main.container {
   padding-top: 0;
@@ -141,6 +141,14 @@ nav.nav-custom {
     margin-top: -30px !important;
   }
 }
+@media (min-width: 1400px) {
+  #hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
 
 /* =========================
    About Section
@@ -162,6 +170,14 @@ nav.nav-custom {
 /* =========================
    Card Section (Info, Symptoms, Advice)
    ========================= */
+#carouselAutoplaying,
+#carouselAutoplaying .carousel-inner,
+#carouselAutoplaying .carousel-item {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
 .card {
   border: none !important;
   box-shadow: none !important;
@@ -249,18 +265,18 @@ footer.footer-custom .a-custom {
 }
 
 a.a-custom {
-  color: var(--main-link);
+  color: var(--main-green);
   justify-content: center;
   padding: 1rem;
 }
 a.a-custom:hover {
-  color: var(--main-link-hover);
+  color: var(--willow-grove);
   text-decoration: none;
 }
 
 .footer-copyright {
   font-size: 0.85rem;
-  color: #888;
+  color: #888 !important;
   padding: 2px 0 4px 0;
   margin-bottom: 0;
   padding-right: 90px;
@@ -438,13 +454,15 @@ button:hover,
 /* =========================
    Container Customization
    ========================= */
-.container-custom {
+.container-custom  {
   background-color: var(--main-bg);
   padding: 1rem;
-  box-shadow: 0 8px 24px 0 #38746a;
-  margin-top: 30px;
-  padding-bottom: 10px;
+  box-shadow: #38746a 0px 0px 10px !important;
+  margin-top: 40px;
+  margin-bottom: 20px !important;
+  padding-bottom: 20px;
 }
+
 
 /* =========================
    Carousel
@@ -493,10 +511,6 @@ button:hover,
 
 html, body {
   overflow-x: hidden !important;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 img, .img-fluid, .card-img-top {
