@@ -1,21 +1,23 @@
-# Mental Health Awareness
+# 🧠 Mental Health Awareness
 
 ---
 
-# 📑 Table of Contents
+## 📑 Table of Contents
 
-- [Introduction](#introduction)
-- [Construction](#construction)
-  - [User Stories](#planning-and-user-stories)
-  - [Project Management](#project-management-setup)
-  - [Wireframing](#visual-design-and-wireframing)
-  - [Setup](#technical-setup)
-  - [Validation](#code-quality-and-validation)
-  - [Deployment](#deployment)
-- [Features](#features)
-- [Testing and Deployment](#testing-and-deployment)
-- [Future Development](#future-development)
-- [Credits](#credits)
+- [🌟 Introduction](#-introduction)
+- [🔨 Construction](#-construction)
+  - [🧩 Planning and User Stories](#planning-and-user-stories)
+  - [🗂️ Project Management Setup](#project-management-setup)
+  - [📐 Visual Design and Wireframing](#visual-design-and-wireframing)
+  - [💻 Technical Setup](#technical-setup)
+  - [✅ Code Quality and Validation](#code-quality-and-validation)
+  - [🚀 Deployment](#deployment)
+- [⭐ Features](#-features)
+- [🧪 Testing and Deployment](#-testing-and-deployment)
+- [🤖 AI Tool Reflection](#-ai-tool-reflection)
+- [📈 Future Development](#-future-development)
+- [🙏 Credits](#-credits)
+- [💬 Final Thoughts](#-final-thoughts)
 
 ---
 
@@ -30,128 +32,160 @@ People new to mental health topics or feeling stressed, seeking gentle guidance 
 This project is a friendly, easy-to-use web page designed to help users learn about mental health in a supportive way. It features simple explanations of common challenges, practical stress management tips, and links to trusted organizations. The calming design and clear layout—built with Bootstrap—make information easy to find for all users.
 
 **Key goals:**
-- Clean, welcoming layout using Bootstrap
-- Clear structure and accessibility via UX principles and semantic HTML
-- Validated custom code (W3C/Jigsaw)
-- Responsive design for all devices
-- Cloud deployment with version control and commented code
-- Concise README with project purpose and value
-- Reflection on AI tools’ impact on performance and user experience
+- 🧼 Clean, welcoming layout using Bootstrap  
+- 🧠 Clear structure and accessibility via UX principles and semantic HTML  
+- 🔍 Validated custom code (W3C/Jigsaw)  
+- 📱 Responsive design for all devices  
+- ☁️ Cloud deployment with version control and commented code  
+- 📝 Concise README with project purpose and value  
+- 🤖 Reflection on AI tools’ impact on performance and user experience
 
 ---
 
 ## 🔨 Construction
 
-### Planning and User Stories
-
-Copilot assisted in defining project purpose, audience, and calming color palettes.
-
-![User Stories](assets/images-readme/palette.png)
-*Figure 1: Chosen color palette*
+### 🧩 Planning and User Stories
 
 User stories followed the format:  
 *As a [user type], I want [goal] so that [benefit].*  
-Acceptance criteria ensured features met user needs, focusing on design, accessibility, and navigation.
+Copilot assisted with defining purpose, color palettes, layout clarity, and accessibility strategy.
 
-![User Stories](assets/images-readme/user-stories.png)
-*Figure 1: User story development and acceptance criteria*
+![Chosen Color Palette](assets/images-readme/palette.png)  
+*Figure 1: Chosen color palette for calming aesthetics*
 
-### Visual Design and Wireframing
+![User Stories](assets/images-readme/user-stories.png)  
+*Figure 2: Developed user stories and acceptance criteria*
 
-I designed the wireframes using a mobile-first approach, ensuring responsiveness across devices. All key UX principles were incorporated to create a user-friendly and accessible layout.
+### 🗂️ Project Management Setup
 
-![Wireframes](assets/images-readme/wireframes.png)
-*Figure 3: Mobile and desktop wireframes showing responsive design*
+Tasks were organized via GitHub Project Board and prioritized using the MoSCoW method.
 
-### Project Management Setup
+![Project Board](assets/images-readme/project-board.png)  
+*Figure 3: GitHub task tracking and prioritization*
 
-A GitHub repository and project board were created. User stories were converted to prioritized tasks using the MoSCoW method.
+### 📐 Visual Design and Wireframing
 
-![GitHub Project Board](assets/images-readme/project-board.png)
-*Figure 2: GitHub Project Board with prioritized user stories*
+Wireframes were created using a mobile-first approach to ensure responsive design and user clarity.
 
-### Technical Setup
+![Wireframes](assets/images-readme/wireframes.png)  
+*Figure 4: Mobile and desktop wireframes*
 
-VS Code was configured with HTML boilerplate, links, and scripts. The project was uploaded to GitHub for version control.
+### 💻 Technical Setup
 
-![VS Code Setup](assets/images-readme/vscode-setup.png)
-*Figure 4: VS Code environment and initial structure*
+VS Code was configured with basic HTML boilerplate, Bootstrap via CDN, and organized file structure.
 
-### Code Quality and Validation
+![VS Code Setup](assets/images-readme/vscode-setup.png)  
+*Figure 5: Initial coding environment and folder structure*
 
-Copilot assisted with debugging, code checks and all the images throughout. Code was commented for maintainability. HTML and CSS passed W3C and Jigsaw validation. Media queries ensured responsiveness and accessibility.
+### ✅ Code Quality and Validation
 
-![W3C Validation Results](assets/images-readme/validation.png)
-*Figure 5: W3C validation results*
+- Semantic HTML  
+- ARIA labels  
+- Commented CSS  
+- Validated via W3C and Jigsaw  
+- Autoprefixer used for cross-browser compatibility
 
-### Deployment
+![Validation](assets/images-readme/validation.png)  
+*Figure 6: W3C validation results*
 
-The site was launched via GitHub Pages, ensuring live updates with each commit and a clear audit trail.
+### 🚀 Deployment
 
-![GitHub Pages Deployment](assets/images-readme/github-pages.png)
-*Figure 6: GitHub Pages deployment*
+The project was deployed via GitHub Pages, with commit history and live auditing.
+
+![Deployment](assets/images-readme/github-pages.png)  
+*Figure 7: GitHub Pages configuration and success message*
 
 ---
 
 ## ⭐ Features
 
-- Welcoming hero section with calming visuals
-- Information cards summarizing mental health topics and tips
-- Positive affirmations carousel
-- Resource links to trusted organizations and helplines
-- Responsive design for all devices
-- Accessible navigation and smooth scrolling
-- Contact form with required fields
-- Footer with social links and copyright
-- Semantic HTML & ARIA labels for accessibility
-- Validated code (HTML/CSS)
+- 🎨 Hero section with calming visuals  
+- 🧾 Information cards summarizing topics and tips  
+- ✨ Positive affirmations carousel  
+- 🔗 Resource links to trusted organizations and helplines  
+- 📱 Responsive design across all devices  
+- 🌐 Accessible navigation and smooth scrolling  
+- 📨 Contact form with required fields  
+- ⚓ Footer with social links and copyright  
+- 🧠 Semantic HTML & ARIA labels  
+- ✅ Validated code using official validators
 
 ---
 
 ## 🧪 Testing and Deployment
 
-- **Lighthouse:** Accessibility, Best Practices, and SEO scored in the 90s. Image compression improved performance. Contrast issues were fixed for accessibility. Meta descriptions added for SEO.
-- **HTML/CSS Validation:** Unused code removed and errors fixed via W3C validators.
-- **Autoprefixer:** CSS was processed, but some validation errors remain.
-- **Deployment:** Project is live via GitHub Pages.
+- 🧪 Lighthouse scores in the 90s (Accessibility, SEO, Best Practices)  
+- 🎯 Fixed contrast issues, added alt text, and compressed images  
+- ⚙️ Meta descriptions added for SEO  
+- ✅ CSS processed and validated  
+- 🌍 Site live at [jakeymarsh1.github.io/mental-health-awareness](https://jakeymarsh1.github.io/mental-health-awareness/)
 
 ---
 
-## 🚀 Future Development
+## 🤖 AI Tool Reflection
 
-**User Story:**  
-Quick access to practical stress-management tips in a clean layout.
+AI tools played a strategic role in supporting this project:
+
+- ✨ **Code Generation:** Semantic HTML layout, responsive Bootstrap grid, navigation logic  
+- 🎨 **Design Choices:** Color palette selection, accessible font pairing, layout guidance  
+- 🪲 **Debugging Assistance:** Helped resolve validation errors and layout spacing issues  
+- 🚀 **Optimization:** Improved animation performance and smooth scrolling  
+- 📈 **Workflow Enhancement:** Accelerated prototyping and reduced debugging time
+
+---
+
+## 📈 Future Development
+
+**New user story:**  
+*Quick access to stress-management tips in a calm format.*
 
 **Acceptance Criteria:**
-- At least 3 actionable stress tips with icons/headings
-- Easy-to-scan section with bullet points or short segments
-- Gentle, reassuring tone
+- ✅ At least 3 actionable tips with headings/icons  
+- 📊 Scannable layout using cards or grid  
+- 💬 Gentle and supportive language
 
-**Tasks:**
-- Create a new section styled with Bootstrap utilities
-- Add icons for each tip
-- Format content with Bootstrap lists or grid
+**Planned additions:**
+- 📋 Stress tips section with Bootstrap cards  
+- 🌗 Dark mode toggle  
+- 🔍 Resource finder for local support  
+- ⏭️ Add skip-to-content accessibility link
 
 <details>
-<summary><strong>Other Future Suggestions</strong></summary>
+<summary><strong>More future ideas...</strong></summary>
 
-- Add positive affirmations carousel
-- Integrate resource finder for support
-- Implement dark mode toggle
-
+- 🌼 Expand positive affirmations section  
+- 🧘 Add breathing exercise animations  
+- 📈 Integrate chatbot for personalized tips  
+- ✉️ Newsletter opt-in via contact form  
 </details>
 
 ---
 
 ## 🙏 Credits
 
-- **Bootstrap:** [Bootstrap 5](https://getbootstrap.com/) via [jsdelivr](https://www.jsdelivr.com/)
-- **Google Fonts:** [Raleway](https://fonts.google.com/specimen/Raleway), [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)
-- **Font Awesome:** [Font Awesome](https://fontawesome.com/) via CDN
-- **Favicons:** Images in `assets/favicon/` (add attribution if sourced externally)
-- **GitHub Copilot:** Code suggestions, user story development, debugging and images.
-- **jsDelivr CDN:** Bootstrap CSS/JS delivery
-- **Other Tools:** VS Code, Git, GitHub, Balsamiq, Simple Image Resizer, Remove.bg, Chrome Lighthouse, W3C Validators, Google Fonts, Font Awesome, Image Color Picker, Code Institute
+- **Frameworks & Libraries:**  
+  - [Bootstrap 5](https://getbootstrap.com/) via [jsDelivr](https://www.jsdelivr.com/)  
+  - [Font Awesome](https://fontawesome.com/) via CDN  
+  - [Google Fonts: Raleway](https://fonts.google.com/specimen/Raleway), [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)
 
-If you used external images or assets, add those credits as well.
+- **Design Tools:**  
+  - Balsamiq, Image Color Picker, Remove.bg, Simple Image Resizer
 
+- **Utilities & Validation:**  
+  - Chrome Lighthouse, W3C/Jigsaw Validators, Autoprefixer
+
+- **Development Support:**  
+  - GitHub Copilot – semantic structure, debugging, responsive layout, image suggestions  
+  - VS Code and GitHub for version control
+
+- **Imagery:**  
+  - Icons via Font Awesome  
+  - Background images from [Unsplash](https://unsplash.com/) licensed under the Unsplash License
+
+---
+
+## 💬 Final Thoughts
+
+This site is more than code — it's a safe place, a calm space, and a gentle nudge toward understanding. Designed with empathy, clarity, and accessibility in mind, this project aims to support anyone navigating stress or mental health topics, whether for the first time or simply needing a reminder: you are not alone.
+
+---
